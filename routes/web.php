@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'ClienteControlador@index')->name("cliente.index");
 Route::get('/novocliente', 'ClienteControlador@create')->name("cliente.create");
+Route::post('/cliente','ClienteControlador@store')->name("cliente.store");
