@@ -20,3 +20,9 @@ Curso de Laravel 5.8 cadastro
 ## Resetando migrações
 
 *php artisan migrate:fresh*
+
+# Banco de dados MYSQL
+
+Acessando o banco de dados no terminal
+ 
+*mysql -u root -p*
