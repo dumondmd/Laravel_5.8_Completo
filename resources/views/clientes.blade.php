@@ -17,6 +17,9 @@
 					<div class="card-header">
 						<div class="card-title">
 							Cadastro de Cliente
+							<br>
+							<a href="{{route('cliente.create')}}"><button  class="btn btn-primary btn-sm">Salvar</button>
+							</a>
 						</div>						
 					</div>
 					<div class="card-body">
