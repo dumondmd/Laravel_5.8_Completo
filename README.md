@@ -1,27 +1,22 @@
 # Laravel Udemy
 ## Curso laravel
 
-Curso de Laravel cadastro
+Curso de Laravel 5.8 cadastro
 
-# Instruções pacotes node_modules
+## Criando MODEL e Migration
 
-Instale com *npm install NOME*
+*php artisan make:model Cliente -m*
 
-## Instalando Jquery 
-npm install jquery
+## Criando CONTROLER e RESOURCE(rotas)
 
+*php artisan make:controller ClienteControlador --resource*
 
-## Instalando Bootstrap 
-npm install bootstrap
+# Migrate
 
-## Configurando webpack.mix.js
+## Criando migração simples
 
-No **webpack.mix.js** coloque *npm run dev*
+*php artisan migrate*
 
-```
-mix
-	.sass('resources/views/scss/style.scss', 'public/site/style.css')
-	.scripts('node_modules/jquery/dist/jquery.js', 'public/site/jquery.js')
-	.scripts('node_modules/bootstrap/dist/js/bootstrap.bundle.js', 'public/site/bootstrap.js');	
-```
+## Resetando migrações
 
+*php artisan migrate:fresh*
